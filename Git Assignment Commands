@@ -1,0 +1,15 @@
+**********************************************************
+Assigment 1
+**********************************************************
+
+ mkdir gitassignment
+  cd gitassignment/
+  touch Code.txt Log.txt Output.txt
+  git init 
+  git add .
+  git status
+  git commit -m "this is assignment files"
+  git branch
+  git status
+  git remote add origin https://github.com/techyavixyz/Intellipaat_Git_Assignments.git
+  git push --all
