@@ -13,3 +13,36 @@ Assigment 1
   git status
   git remote add origin https://github.com/techyavixyz/Intellipaat_Git_Assignments.git
   git push --all
+***************************************************************************************
+Assignmet 2 
+***************************************************************************************
+
+  mkdir gitassignment2
+ cd gitassignment2/
+ git init  
+ git branch
+ touch feature1.txt feature2.txt
+ ls
+ git add . 
+ git commit -m "this is master branch file"
+ git branch
+ git branch develop
+ git branch feature1
+ git branch feature2
+ git branch 
+ git checkout develop 
+ touch  develop.txt
+ git add .
+ git stash push .
+ git status
+ git checkout feature1
+ touch new.txt
+ git status
+ git add .
+ git commit -m "this is file for feature1 branch"
+ git checkout develop 
+ git stash pop
+ git branch
+ git add develop.txt 
+ git commit -m "this is unstashed file from developed branch"
+*************************************************************************************************
