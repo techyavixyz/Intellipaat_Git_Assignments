@@ -46,3 +46,33 @@ Assignmet 2
  git add develop.txt 
  git commit -m "this is unstashed file from developed branch"
 *************************************************************************************************
+Assignment 3
+*************************************************************************************************
+  152  mkdir gitassignment3
+  153  cd gitassignment3
+  154  git init
+  155  git branch Develop
+  156  touch main.txt
+  158  git add .
+  159  git commit -m "this is master branch file"
+  160  git branch
+  161  git branch Develop
+  162  git branch F1
+  163  git branch f2
+  166  git checkout Develop 
+  167  touch develop.txt
+  168  git add .
+  169  git commit -m "this is develop branch file"
+  170  git checkout F1
+  171  touch f1.txt
+  172  git add .
+  173  git commit -m "this is F1 branch file"
+  174  git checkout f2
+  175  touch f2.txt
+  176  git add .
+  177  git commit -m "this is f2 branch file"
+  192  git remote set-url origin https://github.com/techyavixyz/gitassignment3.git
+  193  git push --all
+  194  git branch -D f2
+  195  git push origin --delete f2
+*******************************************************************************************************
